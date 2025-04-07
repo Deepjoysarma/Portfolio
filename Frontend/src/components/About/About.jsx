@@ -1,5 +1,5 @@
 import React from 'react';
-import Black_shirt from '../../assets/Black_shirt.jpg';
+import Pink_blazzer from '../../assets/Pink_blazzer2.jpg';
 
 const About = () => {
   return (
@@ -11,8 +11,8 @@ const About = () => {
         {/* Image and Text Side by Side */}
         <div className='flex flex-col md:flex-row justify-between items-center gap-6'>
           <img
-            className="md:h-80 w-full md:w-auto rounded-md"
-            src={Black_shirt}
+            className="md:h-80 w-full md:w-auto rounded-md lg:ml-20 lg:h-100"
+            src={Pink_blazzer}
             alt="About Image"
           />
 

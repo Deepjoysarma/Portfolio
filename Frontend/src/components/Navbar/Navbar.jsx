@@ -20,6 +20,9 @@ const Navbar = () => {
         <a href="#Projects">
             <li className='text-md transition-all duration-300 p-1 md:p-0'>Projects</li>
         </a>
+        <a href="#Platforms">
+            <li className='text-md transition-all duration-300 p-1 md:p-0'>CodingPlatforms</li>
+        </a>
         <a href="#Contact">
             <li className='text-md transition-all duration-300 p-1 md:p-0'>Contact</li>
         </a>
@@ -37,6 +40,11 @@ const Navbar = () => {
         <RiCloseLine 
             size={30}
             className='md:hidden absolute right-10 top-6 transition-all duration-300'    
+            onClick={() => {
+                openMenu(!menu);
+                setShowMenu(!showMenu);
+              }
+            } 
         />
       )}
     </nav>

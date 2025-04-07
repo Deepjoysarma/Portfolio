@@ -9,7 +9,7 @@ const Footer = () => {
         <h3 className='text-sm md:text-2xl font-normal'>Feel free to react out!</h3>
       </div>
       <ul className='text-sm md:text-xl flex gap-6 cursor-pointer'>
-        <a href="">
+        <a href="mailto:deepjoysarma1223@gmail.com">
             <li>
                 <RiMailFill size={40} />
             </li>
