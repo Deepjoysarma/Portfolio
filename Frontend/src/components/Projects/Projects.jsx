@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import EcommerceImg from "../../assets/Ecommerce.png"
+import TaskAssign from "../../assets/TaskAssign.png"
 
 const Projects = () => {
   return (
@@ -8,6 +9,13 @@ const Projects = () => {
       <h1 className="text-2xl md:text-4xl text-white font-bold mb-8">Projects</h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+        <ProjectCard
+          title="Task Assign site"
+          main="A  role-based web application using Node.js, Express, MongoDB, and JWT for secure authentication. Enabled admins to assign tasks with automatic timestamp" 
+          image={TaskAssign}
+          demo="https://taskassign-frontend-ad29.onrender.com"
+          sourceCode="https://github.com/Deepjoysarma/TaskAssign"
+        />
         <ProjectCard
           title="E-Commerce Website"
           main="Developed a full-stack e-commerce website using React.js for the frontend and Express.js for the backend. Utilized MongoDB as the database to store user and product information. Tested API endpoints using Postman to ensure seamless data exchange between the frontend and backend." 
